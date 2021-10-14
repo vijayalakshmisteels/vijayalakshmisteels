@@ -65649,7 +65649,7 @@ p=(q==null?$.dA=$.k4():q).iA(0,"[DEFAULT]")
 E.eT(p,$.fF())
 q=O.avb(new K.dW(p))
 o=t.z
-O.ayt(q,q.gXM().pe(0,"bookings")).F(0,P.al(["name",m.e.a.a,"bookingTime",new P.dm(Date.now(),!1),"phone",l.a.a,"status","New","gst",m.z.a.a,"address",m.f.a.a,"remarks",m.r.a.a,"deliveryaddress",m.y.a.a,"items",C.aO.Li(C.b.c6(r,0,r.length-4),n),"bindingwire",m.k2,"7mm",0],t.N,o))
+O.ayt(q,q.gXM().pe(0,"bookings")).F(0,P.al(["name",m.e.a.a,"bookingTime",new P.dm(Date.now(),!1),"phone",l.a.a,"status","New","gst",m.z.a.a,"address",m.f.a.a,"remarks",m.r.a.a,"deliveryaddress",m.y.a.a,"items",C.aO.Li(C.b.c6(r,0,r.length-2),n),"bindingwire",m.k2,"7mm",0],t.N,o))
 m=m.c
 m.toString
 o=V.ag4(new O.a8i(),n,o)
