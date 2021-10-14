@@ -13129,7 +13129,7 @@ _.x=e
 _.y=f
 _.z=g
 _.db="-"
-_.k2=_.dy=0
+_.k3=_.k2=_.dy=0
 _.k4=h
 _.r1=i
 _.a=null
@@ -16772,7 +16772,7 @@ _.d="VSP"
 _.f=_.e="8mm"
 _.r="mt"
 _.x=a
-_.Q=b
+_.y=b
 _.a=null
 _.b=c
 _.c=null},
@@ -65460,9 +65460,9 @@ n=n.c.S(t.Pu)
 n.toString
 n.f.vQ(s)}else{r=n.d
 q=n.f
-p=n.e
+p=r==="VSP"?n.e:"40m"
 p=new O.hT(r,q,n.r,P.eC(m,o),p)
-n.Q=p
+n.y=p
 n=n.c
 n.toString
 K.h9(n).kk(0,p)}},
@@ -65484,7 +65484,7 @@ aA:function(){var s,r=this
 r.b8()
 s=r.r1
 s.push(new O.hT("Binding Wire","-","",r.k2,"-"))
-s.push(new O.hT("7 mm","-","",0,"-"))
+s.push(new O.hT("7 mm","-","",r.k3,"-"))
 s.push(new O.hT("Total",r.db,"",r.dy,"-"))},
 WC:function(){var s=null
 return new T.dK(C.bj,M.aY(s,T.dk(H.a([X.mV("Add Item",new O.a8b(this),150),T.aL(s,10,s),X.mV("Add Binding Wire",new O.a8c(this),150),T.aL(s,10,s),X.mV("Add 7mm Wire",new O.a8d(this),150)],t.p),C.a_,C.li,C.K),s,s,s,s,s,s,s),s)},
@@ -65599,9 +65599,11 @@ O.a88.prototype={
 $0:function(){},
 $S:0}
 O.a8d.prototype={
-$0:function(){var s=this.a,r=s.r1
-r[r.length-2].d+=10
-s.ah(new O.a87())},
+$0:function(){var s,r=this.a
+r.k3+=10
+s=r.r1
+s[s.length-2].d+=10
+r.ah(new O.a87())},
 $S:0}
 O.a87.prototype={
 $0:function(){},
@@ -65649,7 +65651,7 @@ p=(q==null?$.dA=$.k4():q).iA(0,"[DEFAULT]")
 E.eT(p,$.fF())
 q=O.avb(new K.dW(p))
 o=t.z
-O.ayt(q,q.gXM().pe(0,"bookings")).F(0,P.al(["name",m.e.a.a,"bookingTime",new P.dm(Date.now(),!1),"phone",l.a.a,"status","New","gst",m.z.a.a,"address",m.f.a.a,"remarks",m.r.a.a,"deliveryaddress",m.y.a.a,"items",C.aO.Li(C.b.c6(r,0,r.length-1),n),"bindingwire",m.k2,"7mm",0],t.N,o))
+O.ayt(q,q.gXM().pe(0,"bookings")).F(0,P.al(["name",m.e.a.a,"bookingTime",new P.dm(Date.now(),!1),"phone",l.a.a,"status","New","gst",m.z.a.a,"address",m.f.a.a,"remarks",m.r.a.a,"deliveryaddress",m.y.a.a,"items",C.aO.Li(C.b.c6(r,0,r.length-1),n),"bindingwire",m.k2,"7mm",m.k3],t.N,o))
 m=m.c
 m.toString
 o=V.ag4(new O.a8i(),n,o)
@@ -65683,7 +65685,7 @@ D.nr.prototype={
 aq:function(){return new D.OW(C.l)}}
 D.OW.prototype={
 I:function(a,b){var s=null
-return M.a23(s,C.j,T.dk(H.a([new D.y2("Thank you for choosing Sri Vijayalakshmi Steels",s),new D.Ef("images/success.gif","Booking Successful !!",s),new D.y2("Your booking is registered successfully. \n Our executive will reach out to you shortly",s),M.aY(s,X.mV("Make another booking",new D.abN(b),150),s,s,s,s,s,new V.aF(0,25,0,25),300)],t.p),C.a_,C.c_,C.K),s)}}
+return M.a23(s,C.j,T.dk(H.a([new D.y2("Thank you for choosing Sri Vijayalakshmi Steels",s),new D.Ef("assets/images/success.gif","Booking Successful !!",s),new D.y2("Your booking is registered successfully. \n Our executive will reach out to you shortly",s),M.aY(s,X.mV("Make another booking",new D.abN(b),150),s,s,s,s,s,new V.aF(0,25,0,25),300)],t.p),C.a_,C.c_,C.K),s)}}
 D.abN.prototype={
 $0:function(){K.h9(this.a).kk(0,null)},
 $S:0};(function aliases(){var s=H.Oh.prototype
