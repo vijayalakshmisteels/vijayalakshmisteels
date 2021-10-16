@@ -16768,7 +16768,7 @@ f5:function f5(a){this.a=a},
 hr:function hr(a){this.a=a},
 lL:function lL(a){this.a=a},
 JQ:function JQ(a,b,c){var _=this
-_.d="VSP"
+_.d="VSP tmt"
 _.f=_.e="8mm"
 _.r="mt"
 _.x=a
@@ -65377,7 +65377,7 @@ I:function(a,b){return T.aL(null,null,20)}}
 R.IG.prototype={
 I:function(a,b){return T.aL(null,null,30)}}
 E.lL.prototype={
-aq:function(){return new E.JQ(new D.dM(C.bx,new P.aG(t.V)),new O.hT("VSP","24","mts",90,"-"),C.l)}}
+aq:function(){return new E.JQ(new D.dM(C.bx,new P.aG(t.V)),new O.hT("VSP tmt","24","mts",90,"-"),C.l)}}
 E.JQ.prototype={
 aA:function(){this.b8()},
 Wk:function(){var s,r,q,p,o,n,m,l,k,j=this,i=null,h="Select Make",g="Select Units",f="Select Length",e="OpenSans",d=T.aL(i,20,i),c=$.aiw(),b=L.bf(h,i,i,i,c,i,i),a=T.aL(i,10,i),a0=j.d,a1=t.s,a2=t.fo,a3=a2.j("b_.E"),a4=t.N
@@ -65393,9 +65393,9 @@ m=T.aL(i,10,i)
 l=j.r
 k=t.p
 l=H.a([d,b,a,a0,s,r,q,p,o,n,m,K.Ui(M.aY(i,L.bf(g,i,i,i,i,i,i),i,i,i,i,i,i,i),P.at(new H.ar(H.a(["mt","nos"],a1),new E.a6y(),a2),!0,a3),new E.a6z(j),l,a4),T.aL(i,20,i)],k)
-if(j.d==="VSP")l.push(L.bf(f,i,i,i,c,i,i))
-if(j.d==="VSP")l.push(T.aL(i,10,i))
-if(j.d==="VSP"){d=j.e
+if(j.d==="VSP tmt")l.push(L.bf(f,i,i,i,c,i,i))
+if(j.d==="VSP tmt")l.push(T.aL(i,10,i))
+if(j.d==="VSP tmt"){d=j.e
 l.push(K.Ui(M.aY(i,L.bf(f,i,i,i,i,i,i),i,i,i,i,i,i,i),P.at(new H.ar(H.a(["8mm","10mm","12mm"],a1),new E.a6A(),a2),!0,a3),new E.a6B(j),d,a4))}d=T.aL(i,10,i)
 c=L.bf("Quantity",i,i,i,c,i,i)
 b=T.aL(i,10,i)
@@ -65460,7 +65460,7 @@ n=n.c.S(t.Pu)
 n.toString
 n.f.vQ(s)}else{r=n.d
 q=n.f
-p=r==="VSP"?n.e:"40m"
+p=r==="VSP tmt"?n.e:"40m"
 p=new O.hT(r,q,n.r,P.eC(m,o),p)
 n.y=p
 n=n.c
